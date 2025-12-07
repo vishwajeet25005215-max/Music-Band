@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f4f7;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #d63031, #e17055);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+nav {
+    background: #111;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 15px 25px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background: #d63031;
+}
+
+section {
+    background: white;
+    margin: 25px;
+    padding: 40px 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #d63031;
+    border-left: 5px solid #d63031;
+    padding-left: 10px;
+}
+
+.member-card {
+    display: inline-block;
+    width: 22%;
+    background: #fafafa;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.member-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.member-card h3 {
+    margin-bottom: 6px;
+    color: #d63031;
+}
+
+
+/* Music section */
+.music-card {
+    background: #fafafa;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+/* Tour Dates */
+.tour-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.tour-table th,
+.tour-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.tour-table th {
+    background: #d63031;
+    color: white;
+}
+
+/* Merchandise */
+.product-card {
+    display: inline-block;
+    width: 30%;
+    background: #fafafa;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.product-card strong {
+    color: #d63031;
+    display: block;
+    margin: 10px 0;
+}
+
+/* Gallery */
+.gallery-card {
+    margin-bottom: 25px;
+    background: #fafafa;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.gallery-card img,
+.gallery-card video {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Button */
+.btn {
+    background: #d63031;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #a72323;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 25px;
+}
